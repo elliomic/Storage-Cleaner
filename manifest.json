@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,	
+	"name": "Storage Cleaner",
+	"description": "This extension deletes various user data stored locally.",
+	"version": "1.0",
+	"icons": { "128": "images/icon128.png" },
+	"permissions": [
+		"browsingData"
+	],
+	"browser_action": {
+		"default_icon": "images/icon128.png",
+		"default_popup": "StorageCleaner.html",
+		"default_title": "Storage Cleaner"
+	}
+}

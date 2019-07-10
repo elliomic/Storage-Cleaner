@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Storage Cleaner</title>
+		<link href="dist/css/bootstrap.css" rel="stylesheet">
+		<link href="StorageCleaner.css" rel="stylesheet">
+		<script src="StorageCleaner.js"></script>
+	</head>
+	<body class="container">
+		<h4 class="text-center">Storage Cleaner</h4>
+		<table class="table table-striped">
+			<tr>
+				<td><input type="checkbox" name="appcache"> Appcache</td>
+				<td><input type="checkbox" name="cache"> Cache</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="cookies"> Cookies</td>
+				<td><input type="checkbox" name="downloads"> Downloads</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="fileSystems"> File Systems</td>
+				<td><input type="checkbox" name="formData"> Form Data</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="history"> History</td>
+				<td><input type="checkbox" name="indexedDB"> Indexed Database</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="localStorage"> Local Storage</td>
+				<td><input type="checkbox" name="serverBoundCertificates"> Server-bound Certificates</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="passwords"> Passwords</td>
+				<td><input type="checkbox" name="pluginData"> Plugin Data</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="checkbox" name="webSQL"> Web SQL</td>
+			</tr>
+		</table>
+		<button id="cleanButton" class="center-block btn btn-danger">Clean</button>
+	</body>
+</html>
